@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.56" ClassName="CNestedPlcProjDef">
 	<Project GUID="{E81CCF4F-10C5-4C5F-A4E6-7AEA73083CE9}" Name="EtherCatDevice" PrjFilePath="..\..\EtherCatDevice\EtherCatDevice.plcproj" TmcFilePath="..\..\EtherCatDevice\EtherCatDevice.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="EtherCatDevice\EtherCatDevice.tmc" TmcHash="{01568670-3781-686B-7710-ACFBC09C5847}">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="EtherCatDevice\EtherCatDevice.tmc" TmcHash="{A672E9FC-12C5-5D37-DF44-9834EF37D124}">
 			<Name>EtherCatDevice Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Contexts>

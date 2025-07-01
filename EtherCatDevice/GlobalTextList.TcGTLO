@@ -11,8 +11,18 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"331"</v>
+              <v n="TextDefault">"%d"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"976"</v>
               <v n="TextDefault">"%s"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"2051"</v>
+              <v n="TextDefault">"/"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -96,6 +106,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"1606"</v>
+              <v n="TextDefault">"Next"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"725"</v>
               <v n="TextDefault">"Paused"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -106,6 +121,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"1825"</v>
+              <v n="TextDefault">"Previous"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"316"</v>
               <v n="TextDefault">"Program"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -113,6 +133,11 @@
             <o>
               <v n="TextID">"3075"</v>
               <v n="TextDefault">"Reset"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"951"</v>
+              <v n="TextDefault">"Robots"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>

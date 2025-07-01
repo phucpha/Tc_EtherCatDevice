@@ -19,7 +19,7 @@
     <Company>NewEngineer</Company>
     <Released>false</Released>
     <Title>EtherCatDevice</Title>
-    <ProjectVersion>0.0.0.1</ProjectVersion>
+    <ProjectVersion>0.0.0.2</ProjectVersion>
     <LibraryCategories>
       <LibraryCategory xmlns="">
         <Id>{34b615cd-45ba-4d29-985a-190ea3e88038}</Id>
@@ -97,12 +97,19 @@
     <Compile Include="Version\Global_Version.TcGVL">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Visualization Manager.TcVMO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="VISUs\ImagePolls\IPRobots.TcIPO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="VISUs\Pages\PageManualRobots.TcVIS">
+      <SubType>Code</SubType>
+      <DependentUpon>Visualization Manager.TcVMO</DependentUpon>
+    </Compile>
     <Compile Include="VISUs\Robots\Mitsubishi\CR800\SingleRobot.TcVIS">
       <SubType>Code</SubType>
-      <DependentUpon>VisualizationManager.TcVMO</DependentUpon>
+      <DependentUpon>Visualization Manager.TcVMO</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +129,7 @@
     <Folder Include="VISUs\ImagePolls" />
     <Folder Include="VISUs\Images" />
     <Folder Include="VISUs\Images\Mitsubishi" />
+    <Folder Include="VISUs\Pages" />
     <Folder Include="VISUs\Robots" />
     <Folder Include="VISUs\Robots\Mitsubishi" />
     <Folder Include="VISUs\Robots\Mitsubishi\CR800" />
