@@ -111,6 +111,9 @@
       <SubType>Code</SubType>
       <DependentUpon>Visualization Manager.TcVMO</DependentUpon>
     </Compile>
+    <Compile Include="VISUs\Text Lists\TL_ModeSwitchState.TcTLO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="VISUs\Text Lists\TL_SingleRobotState.TcTLO">
       <SubType>Code</SubType>
     </Compile>
