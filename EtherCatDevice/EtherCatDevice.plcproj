@@ -100,16 +100,19 @@
     <Compile Include="Visualization Manager.TcVMO">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="VISUs\ImagePolls\IPRobots.TcIPO">
+    <Compile Include="VISUs\Image Polls\IPRobots.TcIPO">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="VISUs\Pages\PageManualRobots.TcVIS">
       <SubType>Code</SubType>
       <DependentUpon>Visualization Manager.TcVMO</DependentUpon>
     </Compile>
-    <Compile Include="VISUs\Robots\Mitsubishi\CR800\SingleRobot.TcVIS">
+    <Compile Include="VISUs\Single\SingleRobot.TcVIS">
       <SubType>Code</SubType>
       <DependentUpon>Visualization Manager.TcVMO</DependentUpon>
+    </Compile>
+    <Compile Include="VISUs\Text Lists\TL_SingleRobotState.TcTLO">
+      <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -126,13 +129,14 @@
     <Folder Include="Version" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
-    <Folder Include="VISUs\ImagePolls" />
+    <Folder Include="VISUs\Image Polls" />
     <Folder Include="VISUs\Images" />
     <Folder Include="VISUs\Images\Mitsubishi" />
+    <Folder Include="VISUs\Single" />
+    <Folder Include="VISUs\Text Lists" />
     <Folder Include="VISUs\Pages" />
     <Folder Include="VISUs\Robots" />
     <Folder Include="VISUs\Robots\Mitsubishi" />
-    <Folder Include="VISUs\Robots\Mitsubishi\CR800" />
   </ItemGroup>
   <ItemGroup>
     <PlaceholderReference Include="System_VisuElemMeter">
