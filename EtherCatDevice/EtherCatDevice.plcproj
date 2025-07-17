@@ -200,10 +200,6 @@
       <DefaultResolution>Tc3_Module, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc3_Module</Namespace>
     </PlaceholderReference>
-    <PlaceholderReference Include="TC3_Utilities_C">
-      <DefaultResolution>TC3_Utilities_C, * (NewEngineer)</DefaultResolution>
-      <Namespace>TC3_Utilities_C</Namespace>
-    </PlaceholderReference>
     <PlaceholderReference Include="VisuDialogs">
       <DefaultResolution>VisuDialogs, * (System)</DefaultResolution>
       <Namespace>VisuDialogs</Namespace>
